@@ -1,7 +1,7 @@
 'use strict';
 
 const request = require('request-promise');
-const FB_PAGE_TOKEN = 'EAAYnNhGWhwsBAGiNzQuR8BTt05XJW8jQJkbmwWREKuPKVYroZCY85xokRt4dnvDnPzFt4q213QzgseeWRNrZAQpGpWSP7ZBzrsjo1ljSkGYp98xJQ8aNegZB4ayJ5ZAdPpKylgauybmDHBGrwNXEXO3ZCcwqM1jGI7xVYENTAX2gZDZD';
+const FB_PAGE_TOKEN = process.env.FB_PAGE_TOKEN || 'ENTER FACEBOOK PAGE ACCESS TOKEN HERE';
 
 class MessengerAPI {
 	constructor() {

@@ -4,7 +4,7 @@
 const Wit = require('node-wit').Wit;
 const messengerApi = require('./messengerApi');
 const sessionStore = require('./sessionStore');
-const WIT_TOKEN = 'ZQ6DJTFAT5ANEXNXJRY3GSRGWS2DG3NY';
+const WIT_TOKEN = 'WIT_TOKEN_HERE' || process.env.WIT_TOKEN;
 const Q = require('q');
 
 

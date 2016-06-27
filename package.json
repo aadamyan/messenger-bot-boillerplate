@@ -2,7 +2,7 @@
   "name": "messenger-bot-boilerplate",
   "description": "A boilerplate for building Facebook Messenger Bot powered by Wit.ai",
   "author": "Alexander Adamyan",
-  "version": "1.0",
+  "version": "0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/aadamyan/messenger-bot-boilerplate.git"

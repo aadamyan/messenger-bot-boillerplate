@@ -7,8 +7,8 @@ const messengerApi = require('./messengerApi');
 const sessionStore = require('./sessionStore');
 const wit = require('./wit');
 
-const FB_VERIFY_TOKEN = 'THiS is a Barcamp!';
-const FB_PAGE_ID = '1731369830413551';
+const FB_VERIFY_TOKEN = process.env.FB_VERIFY_TOKEN || 'ENTER FB VERIFY TOKEN HERE';
+const FB_PAGE_ID = process.env.FB_PAGE_ID || 'ENTER FB PAGE ID HERE';
 
 
 exports.get = function(req, res, next) {
